@@ -47,7 +47,7 @@ In the first plot, we see the clustering results for `Q_1`. The data points are 
 
 Similarly, the second plot shows the results for `Q_2`. The clusters here may indicate different levels of understanding or different approaches taken by students in their ChatGPT interactions regarding the second question. The cluster centers are prominently displayed, illustrating the mean score of the responses within each cluster.
 
-These visualizations not only facilitate a deeper understanding of the data but also assist in enhancing the feature set for the subsequent predictive modeling. By examining where each student's response falls in relation to the cluster centers, we can better estimate the points they might receive for their responses, which is pivotal in predicting their overall performance.
+These visualizations serve as a critical checkpoint in our analysis, confirming the validity of our clustering approach. By visually assessing the distribution of data points around the cluster centers, we can verify the appropriateness of the clusters formed. This confirmation is essential as it assures us that the cluster assignments are meaningful and accurately reflect the underlying patterns in the data. With this validation in hand, we can confidently proceed to incorporate these cluster-based features into our neural network model, which forms the next step in our solution pipeline. The integrity of these clustering results underpins our model's ability to make reliable predictions on student performance, ensuring that the subsequent supervised learning phase is built on a foundation of robust, well-defined clusters.
 
 ### Neural Network Model for Grade Prediction
 
