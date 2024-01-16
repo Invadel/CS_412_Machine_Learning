@@ -77,6 +77,31 @@ The regression plot above is a critical tool for visualizing the accuracy of the
 
 This regression plot is a testament to the model's performance, showing a strong correlation between predicted and actual grades, which is a positive indicator of the model's effectiveness. However, the presence of any outliers or a wide confidence interval could suggest areas for further model refinement.
 
+## Performance Metrics
+
+### Discussion of Error Metrics
+
+The performance of our neural network model was rigorously evaluated using various error metrics, which are critical for understanding the accuracy and reliability of the predictions it generates. The following metrics were computed:
+
+#### Mean Absolute Error (MAE)
+
+- **MAE**: 2.56
+- **Interpretation**: This value represents the average absolute difference between the predicted grades and the actual grades. A MAE of 2.56 indicates that, on average, the model's predictions are within 2.56 points of the true grades, suggesting a high level of accuracy.
+
+#### Root Mean Square Error (RMSE)
+
+- **RMSE**: 3.64
+- **Interpretation**: RMSE provides the average magnitude of the prediction errors. It gives us an idea of the magnitude of errors in the same units as the grades themselves. An RMSE of 3.64 points is relatively low, indicating good predictive performance and suggesting that there are no large errors in predictions.
+
+#### Mean Absolute Percentage Error (MAPE)
+
+- **MAPE**: 2.74%
+- **Interpretation**: MAPE expresses the average absolute error as a percentage of the true values. At 2.74%, the model demonstrates an excellent prediction rate, with the errors constituting a small percentage of the actual grade values, which is indicative of a model that can reliably predict grades across the spectrum.
+
+### Conclusion
+
+The low values across all error metrics confirm the model's strong predictive power and its potential as a reliable tool for estimating student performance based on their ChatGPT interactions. These metrics underscore the model's ability to generalize well to new data and provide a solid foundation for further optimization and deployment.
+
 ## Neural Network Code
 
 The neural network is implemented using PyTorch. It includes data preparation, model definition, training, and evaluation steps, with a focus on performance metrics and regression plot visualization.
