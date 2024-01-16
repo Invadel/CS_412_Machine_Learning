@@ -49,8 +49,6 @@ Similarly, the second plot shows the results for `Q_2`. The clusters here may in
 
 In these visualizations, the clusters should be interpreted horizontally, as they are formed based on the normalized scores for questions. Each cluster is characterized by a range of scores, and the horizontal spread reflects the diversity of student responses within similar scoring brackets. The data points in each cluster are not determined by their position along the x-axis, which is merely an index, but by their closeness in score value, which is indicated on the y-axis. This horizontal reading of clusters aligns with our analytical focus on understanding score distributions and patterns in student interactions for each question.
 
-These visualizations serve as a critical checkpoint in our analysis, confirming the validity of our clustering approach. By visually assessing the distribution of data points around the cluster centers, we can verify the appropriateness of the clusters formed. This confirmation is essential as it assures us that the cluster assignments are meaningful and accurately reflect the underlying patterns in the data. With this validation in hand, we can confidently proceed to incorporate these cluster-based features into our neural network model, which forms the next step in our solution pipeline. The integrity of these clustering results underpins our model's ability to make reliable predictions on student performance, ensuring that the subsequent supervised learning phase is built on a foundation of robust, well-defined clusters.
-
 ### Neural Network Model for Grade Prediction
 
 #### Inputs
