@@ -45,13 +45,37 @@ Due to the limited and complex nature of the dataset, it was challenging to deri
 
 #### Training and Evaluation
 
-- Trained over 200 epochs with mean squared error loss. Performance evaluated using accuracy, precision, and recall metrics.
+- Trained over 200 epochs with mean squared error loss. Performance was evaluated using accuracy, precision, and recall metrics.
 
 #### Testing and Performance Evaluation
 
 - **Testing Dataset Preparation**: The testing dataset was also clustered using the cluster labels and centers learned from the training dataset.
 - **Model Testing**: The neural network model was then tested with this prepared testing dataset.
 - **Evaluation**: The performance of the model was evaluated based on how well it predicted the total grades.
+
+## Regression Plot Analysis
+
+### Visualization of Prediction Accuracy
+
+![image](https://github.com/Invadel/CS_412_Machine_Learning/assets/120125253/a8f3e5f1-f7e1-4777-9256-e23b6a372084)
+
+The regression plot above is a critical tool for visualizing the accuracy of the neural network model's predictions. It illustrates the relationship between the actual grades of the students (`y_true`) and the grades predicted by the model (`y_pred`).
+
+#### Key Features of the Plot:
+
+- **Data Points**: Each blue dot represents an individual student's data, plotting their actual grade against the grade predicted by the model.
+- **Best Fit Line**: The red line indicates the best fit for these data points, showing the trend of the predictions in comparison to the actual grades.
+- **Shaded Area**: The pink shaded region around the line represents the confidence interval for the regression estimate, giving a visual indication of the prediction's precision.
+
+#### Interpretation:
+
+- **Alignment**: The closer the blue dots are to the red line, the more accurate the predictions are.
+- **Distribution**: Ideally, the points should be evenly distributed around the line of best fit, indicating consistent accuracy across the range of grades.
+- **Outliers**: Points far from the red line can be considered outliers and may require further investigation to understand why the prediction was inaccurate.
+
+#### Conclusion:
+
+This regression plot is a testament to the model's performance, showing a strong correlation between predicted and actual grades, which is a positive indicator of the model's effectiveness. However, the presence of any outliers or a wide confidence interval could suggest areas for further model refinement.
 
 ## Neural Network Code
 
@@ -73,15 +97,17 @@ The neural network is implemented using PyTorch. It includes data preparation, m
 - Seaborn
 - Scikit-learn
 
-## Contributors
+## Acknowledgments and Contributions
 
-This project is open for contributions. Please read the contribution guidelines before
+This project is the culmination of collective efforts and insightful collaboration among a group of dedicated individuals, each bringing their unique expertise and enthusiasm to the table:
 
-submitting a pull request.
+- **Selin Ceydeli**
+- **Mert Dursun**
+- **Canberk Tahıl**
+- **Barış Tekdemir**
+- **Onur Sezen**
 
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
+We are immensely grateful for the diverse perspectives and skills each contributor brought to this project. Their dedication to excellence is evident in every line of code, every analysis, and the successful outcomes we achieved.
 
 ---
 
