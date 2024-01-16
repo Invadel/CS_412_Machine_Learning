@@ -33,6 +33,22 @@ Due to the limited and complex nature of the dataset, it was challenging to deri
 - **Feature Formulation**: Cluster centers for each question were used to formulate new features, including the points received per question and a total calculated grade.
 - **Insight Enhancement**: This approach significantly enhanced the dataset's insights, enabling the subsequent application of a neural network model for total grade prediction.
 
+### Clustering Visualizations: Illustrative Cluster Analysis
+
+The visualizations provided below represent the clustering outcomes for two distinct homework questions. These visualizations are key to understanding how students' responses to each question are grouped based on the similarity of their interaction with ChatGPT.
+
+#### Visualization for `Q_1`
+![image](https://github.com/Invadel/CS_412_Machine_Learning/assets/120125253/93e4d64a-25ce-43b8-bf62-f06bdb6bbb00)
+
+In the first plot, we see the clustering results for `Q_1`. The data points are scattered across the plot and color-coded according to the cluster they have been assigned to. The red 'X' marks represent the centroid of each cluster, signifying the average location of all the points within that cluster. This clustering may help us to infer common patterns in student responses and estimate the typical score associated with each pattern.
+
+#### Visualization for `Q_2`
+![image](https://github.com/Invadel/CS_412_Machine_Learning/assets/120125253/51843863-69ea-438b-b034-f2a8ee1bf8e9)
+
+Similarly, the second plot shows the results for `Q_2`. The clusters here may indicate different levels of understanding or different approaches taken by students in their ChatGPT interactions regarding the second question. The cluster centers are prominently displayed, illustrating the mean score of the responses within each cluster.
+
+These visualizations not only facilitate a deeper understanding of the data but also assist in enhancing the feature set for the subsequent predictive modeling. By examining where each student's response falls in relation to the cluster centers, we can better estimate the points they might receive for their responses, which is pivotal in predicting their overall performance.
+
 ### Neural Network Model for Grade Prediction
 
 #### Inputs
