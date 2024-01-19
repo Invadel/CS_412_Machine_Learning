@@ -89,7 +89,6 @@ In these visualizations, the clusters should be interpreted horizontally, as the
 
 ![image](https://github.com/Invadel/CS_412_Machine_Learning/assets/105321074/5113769e-5176-4249-a9f1-f8a6ab4da42e)
 
-
 The regression plot above is a critical tool for visualizing the accuracy of the neural network model's predictions. It illustrates the relationship between the actual grades of the students (`y_true`) and the grades predicted by the model (`y_pred`).
 
 #### Key Features of the Plot:
@@ -147,7 +146,6 @@ The neural network is implemented using PyTorch. It includes data preparation, m
 - Seaborn
 - Scikit-learn
 
-## Bert Model
 # BERT Model for Analyzing ChatGPT Assistant Responses
 
 This section of the repository details our approach to utilizing a BERT (Bidirectional Encoder Representations from Transformers) model for analyzing ChatGPT assistant responses. Our goal was to harness the power of BERT's language understanding capabilities to extract meaningful insights from the assistant's responses in student interactions. This method stands as an alternative approach to our main clustering and neural network pipeline.
@@ -172,8 +170,8 @@ This section of the repository details our approach to utilizing a BERT (Bidirec
 
 ### Performance Evaluation
 
-- **Graphical Analysis**: The outcomes of the model training were visualized in graphs, providing a clear and interpretable representation of the model's performance over time. The graphs can be seen below. 
-- **Metrics**: We focused on standard evaluation metrics to assess the effectiveness of the model in processing and interpreting the assistant responses. Mean squared error (MSE) on validation set with Bert Model was 287.2. 
+- **Graphical Analysis**: The results of the model training have been visualized in graphs, offering a clear and easily interpretable depiction of the model's performance over the course of the training. These graphs are presented below.
+- **Metrics**: Standard evaluation metrics were employed to gauge the effectiveness of the model in processing and interpreting the assistant responses. The Mean Squared Error (MSE) on the validation set with the BERT Model was 287.2.
 
 ![WhatsApp Image 2024-01-19 at 23 49 49](https://github.com/Invadel/CS_412_Machine_Learning/assets/120125253/6e46bd58-ecac-4e3e-acc4-278c4a0b437e)
 
