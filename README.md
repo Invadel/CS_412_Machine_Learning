@@ -68,7 +68,7 @@ In these visualizations, the clusters should be interpreted horizontally, as the
 #### Training and Evaluation
 
 - Trained over a maximum of 200 epochs with mean squared error loss, incorporating early stopping to prevent overfitting and enhance training efficiency.
-- Early Stopping: Training is halted if the test loss does not improve for a predefined patience period (e.g., 10 consecutive epochs), ensuring optimal model performance without unnecessary computation.
+- Early Stopping: Training is halted if the test loss does not improve for a predefined patience period (e.g., 10 consecutive epochs), ensuring optimal model performance without unnecessary computation. With early stopping, overfitting is also prevented. 
 - Performance during training was evaluated using accuracy, precision, and recall metrics.
 
 #### Testing and Performance Evaluation
@@ -105,26 +105,16 @@ This regression plot is a testament to the model's performance, showing a strong
 
 ### Discussion of Error Metrics
 
-The performance of our neural network model was rigorously evaluated using various error metrics, which are critical for understanding the accuracy and reliability of the predictions it generates. The following metrics were computed:
+In the pursuit of refining our predictive model's accuracy, we have dedicated considerable effort to surpass the benchmarks set by our baseline model, which was constructed using a decision tree regressor. This foundational model yielded a Mean Squared Error (MSE) score of 575.88, a useful metric but one that suggested substantial room for improvement.
 
-#### Mean Absolute Error (MAE)
+By transitioning to a more sophisticated neural network architecture that leverages residual blocks — specifically tailored for regression tasks — our model has demonstrated a marked enhancement in performance. The evidence of this lies in the error metrics derived from our rigorous evaluation:
 
-- **MAE**: 2.56
-- **Interpretation**: This value represents the average absolute difference between the predicted grades and the actual grades. A MAE of 2.56 indicates that, on average, the model's predictions are within 2.56 points of the true grades, suggesting a high level of accuracy.
+- **Mean Absolute Error (MAE)**: At 14.36, this metric indicates the average deviation of the predicted grades from their true values, showcasing a tight average error margin which is indicative of the model's precision.
+- **Mean Square Error (MSE)**: The MSE of 378.84, a significant reduction from the baseline's 575.88, underscores a substantial increase in the model's predictive accuracy and its ability to minimize the error squared sum over the dataset.
+- **Root Mean Square Error (RMSE)**: The RMSE, which stands at 19.46, provides us with a standard deviation of the prediction errors, quantifying how much the predictions deviate from the actual values. The lower RMSE, as compared to the baseline model, demonstrates the model's enhanced predictive consistency.
+- **Mean Absolute Percentage Error (MAPE)**: With a MAPE of 15.25%, we gain insight into the relative prediction error in percentage terms, which further confirms the improved accuracy of our neural network model.
 
-#### Root Mean Square Error (RMSE)
-
-- **RMSE**: 3.64
-- **Interpretation**: RMSE provides the average magnitude of the prediction errors. It gives us an idea of the magnitude of errors in the same units as the grades themselves. An RMSE of 3.64 points is relatively low, indicating good predictive performance and suggesting that there are no large errors in predictions.
-
-#### Mean Absolute Percentage Error (MAPE)
-
-- **MAPE**: 2.74%
-- **Interpretation**: MAPE expresses the average absolute error as a percentage of the true values. At 2.74%, the model demonstrates an excellent prediction rate, with the errors constituting a small percentage of the actual grade values, which is indicative of a model that can reliably predict grades across the spectrum.
-
-### Conclusion
-
-The low values across all error metrics confirm the model's strong predictive power and its potential as a reliable tool for estimating student performance based on their ChatGPT interactions. These metrics underscore the model's ability to generalize well to new data and provide a solid foundation for further optimization and deployment.
+These refined metrics not only reflect the model's robustness but also its improved alignment with the intricate patterns inherent in the data. Our neural network model has not only risen to the challenge but set a new standard of performance, providing us with a more reliable and precise tool for grade prediction.
 
 ## Neural Network Code
 
