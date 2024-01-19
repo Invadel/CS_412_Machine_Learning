@@ -12,7 +12,7 @@ This repository contains the code and methodology for a machine learning project
 
 ### Code File Description
 
-- **Project Codebase**: The project codebase encompasses the model training steps, as well as the testing procedure, conducted using a new testing document titled 'testing_chatgpt_data'.
+- **Project Codebase**: The project codebase encompasses the model training steps, as well as the testing procedure, conducted using a new testing document titled `testing_chatgpt_data`.
 
 ### Objective
 
