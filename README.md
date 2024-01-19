@@ -6,7 +6,7 @@ This repository contains the code and methodology for a machine learning project
 
 ### Data Description
 
-- **ChatGPT Histories**: Collection of 150-200 HTML files containing student interactions with ChatGPT.
+- **ChatGPT Histories**: Collection of 122 HTML files containing student interactions with ChatGPT.
 - **Student Scores**: A CSV file with the final grades of students.
 
 ### Objective
@@ -35,7 +35,7 @@ Due to the limited and complex nature of the dataset, it was challenging to deri
 
 ### Clustering Visualizations: Illustrative Cluster Analysis
 
-The visualizations provided below represent the clustering outcomes for two distinct homework questions. These visualizations are key to understanding how students' responses to each question are grouped based on the similarity of their interaction with ChatGPT.
+The visualizations provided below represent the clustering outcomes for two distinct homework questions to illustrate our clustering approach. These visualizations are key to understanding how students' responses to each question are grouped based on the similarity of their interaction with ChatGPT.
 
 #### Visualization for `Q_1`
 ![image](https://github.com/Invadel/CS_412_Machine_Learning/assets/120125253/8cf13eb2-3cfb-4cf3-b6c0-0a171470f01f)
