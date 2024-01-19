@@ -147,6 +147,38 @@ The neural network is implemented using PyTorch. It includes data preparation, m
 - Seaborn
 - Scikit-learn
 
+## Bert Model
+# BERT Model for Analyzing ChatGPT Assistant Responses
+
+This section of the repository details our approach to utilizing a BERT (Bidirectional Encoder Representations from Transformers) model for analyzing ChatGPT assistant responses. Our goal was to harness the power of BERT's language understanding capabilities to extract meaningful insights from the assistant's responses in student interactions. This method stands as an alternative approach to our main clustering and neural network pipeline.
+
+## Overview of the BERT Model Approach
+
+### Data Utilization
+
+- **Scope**: Only the assistant responses extracted from the 122 HTML files containing student interactions with ChatGPT were used.
+- **Objective**: To analyze and understand the nuances and patterns in the ChatGPT responses which could correlate with student grades.
+
+### Data Preprocessing
+
+- **Tokenizer**: Utilized BERT's tokenizer to process the assistant responses, converting them into a format suitable for the model.
+- **Data Split**: The dataset was divided into training, validation, and testing sets with an 80-10-10 split, ensuring a comprehensive evaluation of the model's performance.
+
+### Model Training
+
+- **Pre-Trained BERT Model**: We leveraged a pre-trained BERT model, capitalizing on its existing language processing capabilities.
+- **Epochs**: The model was trained over 100 epochs, ensuring sufficient learning while avoiding overfitting.
+- **Learning Rate**: Set at 1e-5, this learning rate was chosen to balance the speed of convergence with the stability of the training process.
+
+### Performance Evaluation
+
+- **Graphical Analysis**: The outcomes of the model training were visualized in graphs, providing a clear and interpretable representation of the model's performance over time. The graphs can be seen below. 
+- **Metrics**: We focused on standard evaluation metrics to assess the effectiveness of the model in processing and interpreting the assistant responses. Mean squared error (MSE) on validation set with Bert Model was 287.2. 
+
+![WhatsApp Image 2024-01-19 at 23 49 49](https://github.com/Invadel/CS_412_Machine_Learning/assets/120125253/6e46bd58-ecac-4e3e-acc4-278c4a0b437e)
+
+![WhatsApp Image 2024-01-19 at 23 52 44](https://github.com/Invadel/CS_412_Machine_Learning/assets/120125253/4f232a28-47b5-49b4-8604-f879a7615085)
+
 ## Acknowledgments and Contributions
 
 This project is the culmination of collective efforts and insightful collaboration among a group of dedicated individuals, each bringing their unique expertise and enthusiasm to the table:
