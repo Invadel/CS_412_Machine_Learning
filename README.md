@@ -81,7 +81,14 @@ In these visualizations, the clusters should be interpreted horizontally, as the
 
 ### Visualization of Prediction Accuracy
 
+##### Prediction Accurracy without Sigmoid mapping:
+
 ![image](https://github.com/Invadel/CS_412_Machine_Learning/assets/120125253/5227f482-61fe-4d4c-a564-8579d2b3d1e3)
+
+##### Prediction Accurracy with Sigmoid mapping (Forces inputs to the range \[0, 100]):
+
+![image](https://github.com/Invadel/CS_412_Machine_Learning/assets/105321074/5113769e-5176-4249-a9f1-f8a6ab4da42e)
+
 
 The regression plot above is a critical tool for visualizing the accuracy of the neural network model's predictions. It illustrates the relationship between the actual grades of the students (`y_true`) and the grades predicted by the model (`y_pred`).
 
