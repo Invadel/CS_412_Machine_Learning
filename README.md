@@ -68,7 +68,7 @@ In these visualizations, the clusters should be interpreted horizontally, as the
 #### Training and Evaluation
 
 - Trained over a maximum of 200 epochs with mean squared error loss, incorporating early stopping to prevent overfitting and enhance training efficiency.
-- Early Stopping: Training is halted if the test loss does not improve for a predefined patience period (e.g., 10 consecutive epochs), ensuring optimal model performance without unnecessary computation. With early stopping, overfitting is also prevented. 
+- **Early Stopping**: Training is halted if the test loss does not improve for a predefined patience period (e.g., 10 consecutive epochs), ensuring optimal model performance without unnecessary computation. With early stopping, overfitting is also prevented. 
 - Performance during training was evaluated using accuracy, precision, and recall metrics.
 
 #### Testing and Performance Evaluation
