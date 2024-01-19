@@ -67,19 +67,21 @@ In these visualizations, the clusters should be interpreted horizontally, as the
 
 #### Training and Evaluation
 
-- Trained over 200 epochs with mean squared error loss. Performance was evaluated using accuracy, precision, and recall metrics.
+- Trained over a maximum of 200 epochs with mean squared error loss, incorporating early stopping to prevent overfitting and enhance training efficiency.
+- Early Stopping: Training is halted if the test loss does not improve for a predefined patience period (e.g., 10 consecutive epochs), ensuring optimal model performance without unnecessary computation.
+- Performance during training was evaluated using accuracy, precision, and recall metrics.
 
 #### Testing and Performance Evaluation
 
 - **Testing Dataset Preparation**: The testing dataset was also clustered using the cluster labels and centers learned from the training dataset.
 - **Model Testing**: The neural network model was then tested with this prepared testing dataset.
-- **Evaluation**: The performance of the model was evaluated based on how well it predicted the total grades.
+- **Evaluation**: The performance of the model was evaluated based on how well it predicted the total grades, with particular attention to the model's ability to generalize from training to unseen data.
 
 ## Regression Plot Analysis
 
 ### Visualization of Prediction Accuracy
 
-![image](https://github.com/Invadel/CS_412_Machine_Learning/assets/120125253/a8f3e5f1-f7e1-4777-9256-e23b6a372084)
+![image](https://github.com/Invadel/CS_412_Machine_Learning/assets/120125253/5227f482-61fe-4d4c-a564-8579d2b3d1e3)
 
 The regression plot above is a critical tool for visualizing the accuracy of the neural network model's predictions. It illustrates the relationship between the actual grades of the students (`y_true`) and the grades predicted by the model (`y_pred`).
 
