@@ -8,6 +8,11 @@ This repository contains the code and methodology for a machine learning project
 
 - **ChatGPT Histories**: Collection of 122 HTML files containing student interactions with ChatGPT.
 - **Student Scores**: A CSV file with the final grades of students.
+- **Testing_ChatGPT_Data**: Collection of 188 HTML files containing student interactions with ChatGPT, utilized for testing our machine learning model.
+
+### Code File Description
+
+- **Project Codebase**: The project codebase encompasses the model training steps, as well as the testing procedure, conducted using a new testing document titled 'testing_chatgpt_data'.
 
 ### Objective
 
@@ -54,6 +59,7 @@ In these visualizations, the clusters should be interpreted horizontally, as the
 #### Inputs
 
 - Includes metrics like user prompts, error counts, entropy, average characters in prompts and responses, points received per question, and the calculated total grade.
+- Altogether, the neural network model was trained using 27 inputs.
 
 #### Architecture
 
