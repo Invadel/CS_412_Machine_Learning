@@ -181,11 +181,11 @@ This section of the repository details our approach to utilizing a BERT (Bidirec
 
 This project is the culmination of collective efforts and insightful collaboration among a group of dedicated individuals, each bringing their unique expertise and enthusiasm to the table:
 
-- **Selin Ceydeli**
-- **Mert Dursun**
-- **Canberk Tahıl**
+- **Selin Ceydeli**: Implementation of the K-means clustering algorithm to derive new features from the dataset and to determine the points awarded for each question, Plots to illustrate the clustering approach, Preparing the README file
+- **Mert Dursun**: Implementation of the Neural Network model inspired by ResNet, BERT Implementation, Plots for evaluation and visual interpretation
+- **Canberk Tahıl**: BERT Implementation, Plots for evaluation and visual interpretation
 - **Barış Tekdemir**
-- **Onur Sezen**
+- **Onur Sezen**: Annotation of the code snippets for better clarity
 
 We are immensely grateful for the diverse perspectives and skills each contributor brought to this project. Their dedication to excellence is evident in every line of code, every analysis, and the successful outcomes we achieved.
 
