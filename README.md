@@ -183,9 +183,9 @@ This project is the culmination of collective efforts and insightful collaborati
 
 - **Selin Ceydeli**: Implementation of the K-means clustering algorithm to derive new features from the dataset and to determine the points awarded for each question, Plots to illustrate the clustering approach, Preparing the README file
 - **Mert Dursun**: Implementation of the Neural Network model inspired by ResNet, BERT Implementation, Plots for evaluation and visual interpretation
-- **Canberk Tahıl**: BERT Implementation, Plots for evaluation and visual interpretation
-- **Barış Tekdemir**
-- **Onur Sezen**: Annotation of the code snippets for better clarity
+- **Canberk Tahıl**: BERT Implementation, Employing BERT-based visualizations for model evaluation and interpretation
+- **Barış Tekdemir**: Focused on solving technical issues throughout the project
+- **Onur Sezen**: Annotation of the code snippets for better clarity, Focused on solving technical issues throughout the project
 
 We are immensely grateful for the diverse perspectives and skills each contributor brought to this project. Their dedication to excellence is evident in every line of code, every analysis, and the successful outcomes we achieved.
 
